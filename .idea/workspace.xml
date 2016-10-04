@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bookcatalog.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bookcatalog.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/modules/books/assets/css/bookcatalog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+            <state relative-caret-position="705">
+              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -120,7 +120,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1620">
@@ -194,11 +194,11 @@
         <option value="$PROJECT_DIR$/backend/modules/books/views/authors/view.php" />
         <option value="$PROJECT_DIR$/backend/modules/books/views/authors/update.php" />
         <option value="$PROJECT_DIR$/backend/modules/books/views/authors/create.php" />
-        <option value="$PROJECT_DIR$/backend/modules/books/assets/css/bookcatalog.css" />
         <option value="$PROJECT_DIR$/frontend/config/main.php" />
         <option value="$PROJECT_DIR$/frontend/models/SignupForm.php" />
         <option value="$PROJECT_DIR$/frontend/models/ResetPasswordForm.php" />
         <option value="$PROJECT_DIR$/frontend/models/PasswordResetRequestForm.php" />
+        <option value="$PROJECT_DIR$/backend/modules/books/assets/css/bookcatalog.css" />
       </list>
     </option>
   </component>
@@ -1462,12 +1462,12 @@
       <updated>1475488000396</updated>
       <workItem from="1475488003396" duration="1557000" />
       <workItem from="1475504533400" duration="8796000" />
-      <workItem from="1475558599261" duration="32913000" />
+      <workItem from="1475558599261" duration="33135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43266000" />
+    <option name="totallyTimeSpent" value="43488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="24" width="1873" height="1056" extended-state="6" />
@@ -1888,14 +1888,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/books/assets/css/bookcatalog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/modules/books/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1974,6 +1966,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1620">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/books/assets/css/bookcatalog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding />
         </state>
       </provider>
