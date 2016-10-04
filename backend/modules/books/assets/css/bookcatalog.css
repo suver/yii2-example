@@ -1,0 +1,48 @@
+.book-authors-index {
+
+}
+
+.book-authors-index .list-view .summary {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.book-authors-index .list-view .list {
+    display: block;
+}
+
+.book-authors-index .list-view .list .item {
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.book-authors-index .list-view .list .item .title {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.book-authors-index .list-view .list .item .image {
+    width: 100%;
+    text-align: center;
+}
+
+
+.book-catalog-index .table .action-column {
+    min-width: 100px;
+}
+
+.book-catalog-view .control {
+    margin: 20px 50px;
+}
+
+.book-catalog-create #addAuthor{
+    position: relative;
+    top: -34px;
+}
+
+
+.book-catalog-create .chosen-container {
+    margin-left: 20px;
+    width: calc(100% - 20px) !important;
+}
