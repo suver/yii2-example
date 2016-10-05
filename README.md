@@ -1,3 +1,13 @@
+
+
+1. Развернуть Yii2
+
+2. Запустить миграцию
+
+3. yii migrate --migrationPath=@common/modules/books/migrations
+
+
+
 Yii 2 Advanced Project Template
 ===============================
 
