@@ -6,7 +6,7 @@ class m161008_153843_settings extends Migration
 {
     public function up()
     {
-        $this->db->createCommand("CREATE TABLE `suver-settings` ( 
+        $this->db->createCommand("CREATE TABLE `suver_settings` ( 
             `key` VARCHAR(100) NOT NULL, 
             `type` INT(2) NOT NULL,
             `value` TEXT NULL DEFAULT NULL,
