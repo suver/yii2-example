@@ -20,7 +20,7 @@ class m161011_005157_books extends Migration
                             ADD `weight` DECIMAL(6,2) NULL DEFAULT NULL AFTER `publication_type`,
                             ADD INDEX `is_hit` (`is_hit`);")->execute();
 
-        $this->db->createCommand("CREATE TABLE `bookshop`.`books_publishers` ( 
+        $this->db->createCommand("CREATE TABLE `books_publishers` ( 
                             `id` BIGINT(20) NOT NULL AUTO_INCREMENT , 
                             `title` VARCHAR(255) NOT NULL , 
                             `description` TEXT NULL DEFAULT NULL , 
