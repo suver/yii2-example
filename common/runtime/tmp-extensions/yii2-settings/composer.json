@@ -1,0 +1,21 @@
+{
+    "name": "suver/yii2-settings",
+    "description": "You settings",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","settings","farpse"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Suver",
+            "email": "suver@farpse.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "suver\\settings\\": ""
+        }
+    }
+}

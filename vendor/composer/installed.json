@@ -1117,5 +1117,1556 @@
             "relation",
             "yii2"
         ]
+    },
+    {
+        "name": "imagine/imagine",
+        "version": "v0.5.0",
+        "version_normalized": "0.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/avalanche123/Imagine.git",
+            "reference": "f64ec666baaa800edcbf237db41121a569230709"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/f64ec666baaa800edcbf237db41121a569230709",
+            "reference": "f64ec666baaa800edcbf237db41121a569230709",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "sami/sami": "dev-master"
+        },
+        "suggest": {
+            "ext-gd": "to use the GD implementation",
+            "ext-gmagick": "to use the Gmagick implementation",
+            "ext-imagick": "to use the Imagick implementation"
+        },
+        "time": "2013-07-10 17:25:36",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Imagine": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Bulat Shakirzyanov",
+                "email": "mallluhuct@gmail.com",
+                "homepage": "http://avalanche123.com"
+            }
+        ],
+        "description": "Image processing for PHP 5.3",
+        "homepage": "http://imagine.readthedocs.org/",
+        "keywords": [
+            "drawing",
+            "graphics",
+            "image manipulation",
+            "image processing"
+        ]
+    },
+    {
+        "name": "yiisoft/yii2-imagine",
+        "version": "2.0.4",
+        "version_normalized": "2.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiisoft/yii2-imagine.git",
+            "reference": "68ed3d96cd1895035cef3c0e9ce9cf6c2c0c7f1c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiisoft/yii2-imagine/zipball/68ed3d96cd1895035cef3c0e9ce9cf6c2c0c7f1c",
+            "reference": "68ed3d96cd1895035cef3c0e9ce9cf6c2c0c7f1c",
+            "shasum": ""
+        },
+        "require": {
+            "imagine/imagine": "0.5.*",
+            "yiisoft/yii2": "*"
+        },
+        "time": "2016-09-04 15:14:08",
+        "type": "yii2-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "yii\\imagine\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Antonio Ramirez",
+                "email": "amigo.cobos@gmail.com"
+            }
+        ],
+        "description": "The Imagine integration for the Yii framework",
+        "keywords": [
+            "helper",
+            "image",
+            "imagine",
+            "yii2"
+        ]
+    },
+    {
+        "name": "cyneek/yii2-upload-behavior",
+        "version": "0.0.8",
+        "version_normalized": "0.0.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Patroklo/yii2-upload-behavior.git",
+            "reference": "30bff2af954582cd602dd668da90d592d10e160e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Patroklo/yii2-upload-behavior/zipball/30bff2af954582cd602dd668da90d592d10e160e",
+            "reference": "30bff2af954582cd602dd668da90d592d10e160e",
+            "shasum": ""
+        },
+        "require": {
+            "league/flysystem": "*",
+            "yiisoft/yii2": "*",
+            "yiisoft/yii2-imagine": "*"
+        },
+        "time": "2016-01-05 11:30:59",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "cyneek\\yii2\\uploadBehavior\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD"
+        ],
+        "authors": [
+            {
+                "name": "Patroklo",
+                "email": "patroklo@gmail.com"
+            }
+        ],
+        "description": "Upload behavior for Yii 2",
+        "keywords": [
+            "upload",
+            "yii",
+            "yii2"
+        ]
+    },
+    {
+        "name": "league/flysystem",
+        "version": "1.0.28",
+        "version_normalized": "1.0.28.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/flysystem.git",
+            "reference": "a9663643ff2d16d7f66ed1e0d3212c5491bc9044"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a9663643ff2d16d7f66ed1e0d3212c5491bc9044",
+            "reference": "a9663643ff2d16d7f66ed1e0d3212c5491bc9044",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "conflict": {
+            "league/flysystem-sftp": "<1.0.6"
+        },
+        "require-dev": {
+            "ext-fileinfo": "*",
+            "mockery/mockery": "~0.9",
+            "phpspec/phpspec": "^2.2",
+            "phpunit/phpunit": "~4.8"
+        },
+        "suggest": {
+            "ext-fileinfo": "Required for MimeType",
+            "league/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
+            "league/flysystem-aws-s3-v3": "Allows you to use S3 storage with AWS SDK v3",
+            "league/flysystem-azure": "Allows you to use Windows Azure Blob storage",
+            "league/flysystem-cached-adapter": "Flysystem adapter decorator for metadata caching",
+            "league/flysystem-copy": "Allows you to use Copy.com storage",
+            "league/flysystem-dropbox": "Allows you to use Dropbox storage",
+            "league/flysystem-eventable-filesystem": "Allows you to use EventableFilesystem",
+            "league/flysystem-rackspace": "Allows you to use Rackspace Cloud Files",
+            "league/flysystem-sftp": "Allows you to use SFTP server storage via phpseclib",
+            "league/flysystem-webdav": "Allows you to use WebDAV storage",
+            "league/flysystem-ziparchive": "Allows you to use ZipArchive adapter"
+        },
+        "time": "2016-10-07 12:20:37",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "League\\Flysystem\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Frank de Jonge",
+                "email": "info@frenky.net"
+            }
+        ],
+        "description": "Filesystem abstraction: Many filesystems, one API.",
+        "keywords": [
+            "Cloud Files",
+            "WebDAV",
+            "abstraction",
+            "aws",
+            "cloud",
+            "copy.com",
+            "dropbox",
+            "file systems",
+            "files",
+            "filesystem",
+            "filesystems",
+            "ftp",
+            "rackspace",
+            "remote",
+            "s3",
+            "sftp",
+            "storage"
+        ]
+    },
+    {
+        "name": "suver/yii2-behavior-subset",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/suver/yii2-behavior-subset.git",
+            "reference": "5d1a0b65475d22e6c23112ba721748b67c91ae54"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/suver/yii2-behavior-subset/zipball/5d1a0b65475d22e6c23112ba721748b67c91ae54",
+            "reference": "5d1a0b65475d22e6c23112ba721748b67c91ae54",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "*"
+        },
+        "time": "2016-10-07 22:07:12",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "suver\\behavior\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Suver",
+                "email": "suver@farpse.com"
+            }
+        ],
+        "description": "Behavior Subset",
+        "keywords": [
+            "Behavior",
+            "extension",
+            "farpse",
+            "subset",
+            "yii2"
+        ]
+    },
+    {
+        "name": "suver/yii2-behavior-upload",
+        "version": "1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/suver/yii2-behavior-upload.git",
+            "reference": "2299d9c60374211aeb6d8cfac8f3e795b2dda96b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/suver/yii2-behavior-upload/zipball/2299d9c60374211aeb6d8cfac8f3e795b2dda96b",
+            "reference": "2299d9c60374211aeb6d8cfac8f3e795b2dda96b",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "*"
+        },
+        "time": "2016-10-08 11:22:36",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "suver\\behavior\\upload\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Suver",
+                "email": "suver@farpse.com"
+            }
+        ],
+        "description": "File Upload Behavior",
+        "keywords": [
+            "Behavior",
+            "extension",
+            "farpse",
+            "upload",
+            "yii2"
+        ]
+    },
+    {
+        "name": "suver/yii2-settings",
+        "version": "1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/suver/yii2-settings.git",
+            "reference": "ccaa25adaa85fe4e869407e3f97e496c28129682"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/suver/yii2-settings/zipball/ccaa25adaa85fe4e869407e3f97e496c28129682",
+            "reference": "ccaa25adaa85fe4e869407e3f97e496c28129682",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "*"
+        },
+        "time": "2016-10-08 16:23:38",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "suver\\settings\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Suver",
+                "email": "suver@farpse.com"
+            }
+        ],
+        "description": "You settings",
+        "keywords": [
+            "Settings",
+            "extension",
+            "farpse",
+            "yii2"
+        ]
+    },
+    {
+        "name": "suver/yii2-notifications",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/suver/yii2-notifications.git",
+            "reference": "6b30f4e45643039cb3bbbf09ba7fc5cab3f5cedf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/suver/yii2-notifications/zipball/6b30f4e45643039cb3bbbf09ba7fc5cab3f5cedf",
+            "reference": "6b30f4e45643039cb3bbbf09ba7fc5cab3f5cedf",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "*"
+        },
+        "time": "2016-10-09 12:03:53",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "suver\\notifications\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Suver",
+                "email": "suver@farpse.com"
+            }
+        ],
+        "description": "You notifications",
+        "keywords": [
+            "extension",
+            "farpse",
+            "notifications",
+            "yii2"
+        ]
+    },
+    {
+        "name": "bower-asset/microplugin",
+        "version": "v0.0.3",
+        "version_normalized": "0.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/brianreavis/microplugin.js.git",
+            "reference": "d8671e6cc769938648f8735610534427cdeeaf67"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/brianreavis/microplugin.js/zipball/d8671e6cc769938648f8735610534427cdeeaf67",
+            "reference": "d8671e6cc769938648f8735610534427cdeeaf67",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "src/microplugin.js"
+            ],
+            "bower-asset-ignore": [
+                "Makefile",
+                "test",
+                ".travis.yml",
+                ".npmignore.yml"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "Apache License, Version 2.0"
+        ],
+        "description": "A lightweight plugin / dependency system for javascript libraries.",
+        "keywords": [
+            "architecture",
+            "dependencies",
+            "extensibility",
+            "plugins",
+            "require"
+        ]
+    },
+    {
+        "name": "bower-asset/sifter",
+        "version": "v0.5.2",
+        "version_normalized": "0.5.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/brianreavis/sifter.js.git",
+            "reference": "4ba7422542bf188c1fdb4bbc341fc4fcc1ff0680"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/brianreavis/sifter.js/zipball/4ba7422542bf188c1fdb4bbc341fc4fcc1ff0680",
+            "reference": "4ba7422542bf188c1fdb4bbc341fc4fcc1ff0680",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "sifter.js"
+            ],
+            "bower-asset-ignore": [
+                "Makefile",
+                "test",
+                "lib",
+                "bin",
+                "benchmark",
+                "node_modules",
+                ".travis.yml"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "Apache License, Version 2.0"
+        ],
+        "description": "A library for textually searching arrays and hashes of objects by property (or multiple properties). Designed specifically for autocomplete.",
+        "keywords": [
+            "autocomplete",
+            "data",
+            "filter",
+            "match",
+            "results",
+            "search",
+            "sift",
+            "sort"
+        ]
+    },
+    {
+        "name": "bower-asset/selectize",
+        "version": "v0.12.3",
+        "version_normalized": "0.12.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/selectize/selectize.js.git",
+            "reference": "abc8a560a8335a017790c2a799925cc123670bfc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/selectize/selectize.js/zipball/abc8a560a8335a017790c2a799925cc123670bfc",
+            "reference": "abc8a560a8335a017790c2a799925cc123670bfc",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/jquery": ">=1.7.0",
+            "bower-asset/microplugin": "dev-0.0.x|0.0.x",
+            "bower-asset/sifter": "dev-0.5.x|0.5.x"
+        },
+        "require-dev": {
+            "bower-asset/bootstrap-2": "~2",
+            "bower-asset/bootstrap-3.2": "3.2"
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "dist/css/selectize.css",
+                "dist/js/selectize.js"
+            ],
+            "bower-asset-ignore": [
+                "Makefile",
+                "Gruntfile.js",
+                "examples",
+                "node_modules",
+                "bower_components",
+                "docs",
+                "src",
+                "test",
+                ".travis.yml",
+                "testem.json",
+                "selectize.jquery.json",
+                "*.sh",
+                "package.json"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "Apache License, Version 2.0"
+        ],
+        "description": "Selectize is a jQuery-based custom <select> UI control. Useful for tagging, contact lists, country selectors, etc.",
+        "keywords": [
+            "autocomplete",
+            "control",
+            "form",
+            "input",
+            "select",
+            "tag",
+            "tagging",
+            "ui"
+        ]
+    },
+    {
+        "name": "bower-asset/json-editor",
+        "version": "v0.7.28",
+        "version_normalized": "0.7.28.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jdorn/json-editor.git",
+            "reference": "26e221593e3678794d4abf6c0ba98ccb180c7387"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jdorn/json-editor/zipball/26e221593e3678794d4abf6c0ba98ccb180c7387",
+            "reference": "26e221593e3678794d4abf6c0ba98ccb180c7387",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": "dist/jsoneditor.js",
+            "bower-asset-ignore": [
+                "**/.*",
+                "*.md",
+                "tests",
+                "examples",
+                "demo.html",
+                "*.png",
+                "package.json",
+                "Gruntfile.js",
+                "src"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "description": "JSON Schema based editor",
+        "keywords": [
+            "editor",
+            "json",
+            "jsonschema",
+            "schema"
+        ]
+    },
+    {
+        "name": "beowulfenator/yii2-json-editor",
+        "version": "1.1.3",
+        "version_normalized": "1.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/beowulfenator/yii2-json-editor.git",
+            "reference": "17c6c3279b31fc10317284c15eb0e430fcbb212b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/beowulfenator/yii2-json-editor/zipball/17c6c3279b31fc10317284c15eb0e430fcbb212b",
+            "reference": "17c6c3279b31fc10317284c15eb0e430fcbb212b",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/json-editor": "0.*",
+            "bower-asset/selectize": "~0.12.0",
+            "yiisoft/yii2": "~2.0.0"
+        },
+        "time": "2016-06-20 09:04:55",
+        "type": "yii2-extension",
+        "extra": {
+            "asset-installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "beowulfenator\\JsonEditor\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Konstantin Sirotkin",
+                "email": "beowulfenator@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Yii2 wrapper for jdorn/json-editor",
+        "homepage": "https://github.com/beowulfenator/yii2-json-editor",
+        "keywords": [
+            "json",
+            "json-editor",
+            "yii2"
+        ]
+    },
+    {
+        "name": "hasbridge/json-schema-validator",
+        "version": "0.2.0",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hasbridge/php-json-schema.git",
+            "reference": "62b2bb92fe05aca3f81e257cf721fe92dec5a167"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hasbridge/php-json-schema/zipball/62b2bb92fe05aca3f81e257cf721fe92dec5a167",
+            "reference": "62b2bb92fe05aca3f81e257cf721fe92dec5a167",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2012-02-27 14:25:05",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Json": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Harold Asbridge",
+                "email": "hasbridge@gmail.com"
+            }
+        ],
+        "description": "PHP 5.3 implementation of json schema validation",
+        "homepage": "https://github.com/hasbridge/php-json-schema",
+        "keywords": [
+            "json",
+            "schema"
+        ]
+    },
+    {
+        "name": "bower-asset/to-markdown",
+        "version": "v3.0.1",
+        "version_normalized": "3.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/domchristie/to-markdown.git",
+            "reference": "55d8f2a5c3b98d0e16f31b7ae4b02f344fbf7e2e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/domchristie/to-markdown/zipball/55d8f2a5c3b98d0e16f31b7ae4b02f344fbf7e2e",
+            "reference": "55d8f2a5c3b98d0e16f31b7ae4b02f344fbf7e2e",
+            "shasum": ""
+        },
+        "require-dev": {
+            "bower-asset/qunit": "~1.14.0"
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": "dist/to-markdown.js",
+            "bower-asset-ignore": [
+                "**/.*",
+                "node_modules",
+                "bower_components",
+                "package.json",
+                "test",
+                "lib",
+                "index.js"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "description": "An HTML to Markdown converter written in JavaScript",
+        "keywords": [
+            "html",
+            "markdown"
+        ]
+    },
+    {
+        "name": "bower-asset/marked",
+        "version": "v0.3.6",
+        "version_normalized": "0.3.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/chjj/marked.git",
+            "reference": "eddec20467c2d10c7769061ee9074e268500966f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/chjj/marked/zipball/eddec20467c2d10c7769061ee9074e268500966f",
+            "reference": "eddec20467c2d10c7769061ee9074e268500966f",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": "lib/marked.js",
+            "bower-asset-ignore": [
+                "**/.*",
+                "node_modules",
+                "bower_components",
+                "app/bower_components",
+                "test",
+                "tests"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "description": "A markdown parser built for speed",
+        "keywords": [
+            "html",
+            "markdown",
+            "markup"
+        ]
+    },
+    {
+        "name": "bower-asset/bootstrap-markdown",
+        "version": "v2.10.0",
+        "version_normalized": "2.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/toopay/bootstrap-markdown.git",
+            "reference": "3f69bb3db5020d29182c2092040f0ad8d390bda7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/toopay/bootstrap-markdown/zipball/3f69bb3db5020d29182c2092040f0ad8d390bda7",
+            "reference": "3f69bb3db5020d29182c2092040f0ad8d390bda7",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/bootstrap": "~3"
+        },
+        "require-dev": {
+            "bower-asset/markdown": "~0.4.0"
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "./js/bootstrap-markdown.js",
+                "./css/bootstrap-markdown.min.css"
+            ]
+        },
+        "installation-source": "dist",
+        "license": [
+            "Apache-2.0"
+        ]
+    },
+    {
+        "name": "bower-asset/google-code-prettify",
+        "version": "v1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/spencewood/google-code-prettify.git",
+            "reference": "5e0b27bba2583a386c08ead942bbf25418c28784"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/spencewood/google-code-prettify/zipball/5e0b27bba2583a386c08ead942bbf25418c28784",
+            "reference": "5e0b27bba2583a386c08ead942bbf25418c28784",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "./bin/prettify.min.css",
+                "./bin/prettify.min.js"
+            ],
+            "bower-asset-ignore": [
+                "closure-compiler",
+                "js-modules",
+                "tests",
+                "yui-compressor",
+                "Makefile"
+            ]
+        },
+        "installation-source": "dist"
+    },
+    {
+        "name": "uran1980/yii2-code-prettify",
+        "version": "0.0.2",
+        "version_normalized": "0.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/uran1980/yii2-code-prettify.git",
+            "reference": "c73cc5bada5a519f6a9e389aad57a37f4815baa8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/uran1980/yii2-code-prettify/zipball/c73cc5bada5a519f6a9e389aad57a37f4815baa8",
+            "reference": "c73cc5bada5a519f6a9e389aad57a37f4815baa8",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/google-code-prettify": "*",
+            "yiisoft/yii2": "~2"
+        },
+        "time": "2015-03-07 00:00:00",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "uran1980\\yii\\assets\\codePrettify\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ivan Yakovlev",
+                "email": "uran1980@gmail.com",
+                "homepage": "https://github.com/uran1980",
+                "role": "Developer"
+            }
+        ],
+        "description": "Yii2 Code syntax highlighter based on Google-Code-Prettify library.",
+        "homepage": "https://github.com/uran1980/yii2-code-prettify",
+        "keywords": [
+            "code prettify",
+            "code syntax highlighter",
+            "yii2"
+        ]
+    },
+    {
+        "name": "bower-asset/jquery.scrollTo",
+        "version": "2.1.2",
+        "version_normalized": "2.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/flesler/jquery.scrollTo.git",
+            "reference": "d33ae4515be21a76bb7907c94dd8a0ca0de7e49b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/flesler/jquery.scrollTo/zipball/d33ae4515be21a76bb7907c94dd8a0ca0de7e49b",
+            "reference": "d33ae4515be21a76bb7907c94dd8a0ca0de7e49b",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/jquery": ">=1.8"
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "./jquery.scrollTo.js"
+            ],
+            "bower-asset-ignore": [
+                "**/.*",
+                "demo",
+                "tests",
+                "CHANGELOG",
+                "README.md",
+                "composer.json",
+                "package.json"
+            ]
+        },
+        "installation-source": "dist",
+        "description": "Lightweight, cross-browser and highly customizable animated scrolling with jQuery",
+        "keywords": [
+            "anchors",
+            "animated",
+            "animation",
+            "browser",
+            "jquery",
+            "links",
+            "scroll",
+            "scrolling"
+        ]
+    },
+    {
+        "name": "bower-asset/jquery-form",
+        "version": "3.51",
+        "version_normalized": "3.51.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/malsup/form.git",
+            "reference": "6bf24a5f6d8be65f4e5491863180c09356d9dadd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/malsup/form/zipball/6bf24a5f6d8be65f4e5491863180c09356d9dadd",
+            "reference": "6bf24a5f6d8be65f4e5491863180c09356d9dadd",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/jquery": ">=1.5"
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": "jquery.form.js",
+            "bower-asset-ignore": [
+                "README.md",
+                "composer.json",
+                "form.jquery.json",
+                "package.json"
+            ]
+        },
+        "installation-source": "dist"
+    },
+    {
+        "name": "bower-asset/jquery-mousewheel",
+        "version": "3.1.13",
+        "version_normalized": "3.1.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jquery/jquery-mousewheel.git",
+            "reference": "67289b6b2aa0066d7d78a5807f520387135ffb22"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jquery/jquery-mousewheel/zipball/67289b6b2aa0066d7d78a5807f520387135ffb22",
+            "reference": "67289b6b2aa0066d7d78a5807f520387135ffb22",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/jquery": ">=1.2.2"
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": "./jquery.mousewheel.js",
+            "bower-asset-ignore": [
+                "*.json",
+                "*.markdown",
+                "*.txt",
+                ".*",
+                "!LICENSE.txt",
+                "Gruntfile.js",
+                "test"
+            ]
+        },
+        "installation-source": "dist"
+    },
+    {
+        "name": "bower-asset/jquery.easing",
+        "version": "v1.3.1",
+        "version_normalized": "1.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jozefizso/bower-jquery-easing.git",
+            "reference": "7ddc8b25d24c78bbae8d00a3ae43bf3f274ec8b5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jozefizso/bower-jquery-easing/zipball/7ddc8b25d24c78bbae8d00a3ae43bf3f274ec8b5",
+            "reference": "7ddc8b25d24c78bbae8d00a3ae43bf3f274ec8b5",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/jquery": ">=1.2.1"
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": "js/jquery.easing.js",
+            "bower-asset-ignore": [
+                "**/.*",
+                "node_modules",
+                "bower_components",
+                "test",
+                "tests"
+            ]
+        },
+        "installation-source": "dist",
+        "description": "jQuery Easing plugin",
+        "keywords": [
+            "easing",
+            "jquery",
+            "jquery plugin"
+        ]
+    },
+    {
+        "name": "bower-asset/jquery-cookie",
+        "version": "v1.4.1",
+        "version_normalized": "1.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/carhartl/jquery-cookie.git",
+            "reference": "7f88a4e631aba8a8c688fd8999ce6b9bcfd50718"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/carhartl/jquery-cookie/zipball/7f88a4e631aba8a8c688fd8999ce6b9bcfd50718",
+            "reference": "7f88a4e631aba8a8c688fd8999ce6b9bcfd50718",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/jquery": ">=1.2"
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": [
+                "./jquery.cookie.js"
+            ],
+            "bower-asset-ignore": [
+                "test",
+                ".*",
+                "*.json",
+                "*.md",
+                "*.txt",
+                "Gruntfile.js"
+            ]
+        },
+        "installation-source": "dist"
+    },
+    {
+        "name": "uran1980/yii2-jquery-essential",
+        "version": "0.0.6",
+        "version_normalized": "0.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/uran1980/yii2-jquery-essential.git",
+            "reference": "b1e6d8d2f550bb95e7c8b1e61ef626cb06511be9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/uran1980/yii2-jquery-essential/zipball/b1e6d8d2f550bb95e7c8b1e61ef626cb06511be9",
+            "reference": "b1e6d8d2f550bb95e7c8b1e61ef626cb06511be9",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/jquery-cookie": "*",
+            "bower-asset/jquery-form": "*",
+            "bower-asset/jquery-mousewheel": "*",
+            "bower-asset/jquery.easing": "*",
+            "bower-asset/jquery.scrollto": "*",
+            "yiisoft/yii2": "~2"
+        },
+        "time": "2015-03-14 21:40:00",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "uran1980\\yii\\assets\\jQueryEssential\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ivan Yakovlev",
+                "email": "uran1980@gmail.com",
+                "homepage": "https://github.com/uran1980",
+                "role": "Developer"
+            }
+        ],
+        "description": "An Yii2 jQuery Essential assets component.",
+        "homepage": "https://github.com/uran1980/yii2-jquery-essential",
+        "keywords": [
+            "assets",
+            "jQuery Cookie",
+            "jQuery Easing",
+            "jQuery Essential Plugins",
+            "jQuery MouseWheel",
+            "jQuery Scroll To",
+            "yii2",
+            "yii2-jquery-essential"
+        ]
+    },
+    {
+        "name": "bower-asset/autosize",
+        "version": "3.0.17",
+        "version_normalized": "3.0.17.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jackmoore/autosize.git",
+            "reference": "3838f1939045804b3166fd217ed59184758e8de3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jackmoore/autosize/zipball/3838f1939045804b3166fd217ed59184758e8de3",
+            "reference": "3838f1939045804b3166fd217ed59184758e8de3",
+            "shasum": ""
+        },
+        "type": "bower-asset-library",
+        "extra": {
+            "bower-asset-main": "dist/autosize.js",
+            "bower-asset-ignore": []
+        },
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+        "keywords": [
+            "form",
+            "textarea",
+            "ui"
+        ]
+    },
+    {
+        "name": "uran1980/yii2-textarea-autosize",
+        "version": "0.0.6",
+        "version_normalized": "0.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/uran1980/yii2-textarea-autosize.git",
+            "reference": "9288d79c96285e07b5f0c70562916624130a95aa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/uran1980/yii2-textarea-autosize/zipball/9288d79c96285e07b5f0c70562916624130a95aa",
+            "reference": "9288d79c96285e07b5f0c70562916624130a95aa",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/autosize": "*",
+            "yiisoft/yii2": "~2"
+        },
+        "time": "2015-03-07 00:00:00",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "uran1980\\yii\\assets\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ivan Yakovlev",
+                "email": "uran1980@gmail.com",
+                "homepage": "https://github.com/uran1980",
+                "role": "Developer"
+            }
+        ],
+        "description": "An Yii2 Textarea Autosize extension based on Autosize javascript library.",
+        "homepage": "https://github.com/uran1980/yii2-textarea-autosize",
+        "keywords": [
+            "javascript",
+            "textarea autosize",
+            "yii2",
+            "yii2-textarea-autosize"
+        ]
+    },
+    {
+        "name": "uran1980/yii2-bootstrap-markdown-editor",
+        "version": "0.0.4",
+        "version_normalized": "0.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/uran1980/yii2-bootstrap-markdown-editor.git",
+            "reference": "6c5dc54e0b4db0ab731920567d6f48f734b710b2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/uran1980/yii2-bootstrap-markdown-editor/zipball/6c5dc54e0b4db0ab731920567d6f48f734b710b2",
+            "reference": "6c5dc54e0b4db0ab731920567d6f48f734b710b2",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/bootstrap-markdown": "2.*",
+            "bower-asset/marked": "*",
+            "bower-asset/to-markdown": "*",
+            "uran1980/yii2-code-prettify": "*",
+            "uran1980/yii2-jquery-essential": "*",
+            "uran1980/yii2-textarea-autosize": "*",
+            "yiisoft/yii2": "~2"
+        },
+        "time": "2015-03-21 23:30:00",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "uran1980\\yii\\widgets\\markdown\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ivan Yakovlev",
+                "email": "uran1980@gmail.com",
+                "homepage": "https://github.com/uran1980",
+                "role": "Developer"
+            }
+        ],
+        "description": "Yii2 Markdown Editor based on Bootstrap Markdown.",
+        "homepage": "https://github.com/uran1980/yii2-bootstrap-markdown-editor",
+        "keywords": [
+            "bootstrap markdown",
+            "editor",
+            "gfm",
+            "markdown",
+            "widgets",
+            "yii2",
+            "yii2-bootstrap-markdown-editor"
+        ]
+    },
+    {
+        "name": "iisns/yii2-simplemde-markdown",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/iisns/yii2-simplemde-markdown.git",
+            "reference": "446825d83fb4da7430c6a0462cb3c8f939317541"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/iisns/yii2-simplemde-markdown/zipball/446825d83fb4da7430c6a0462cb3c8f939317541",
+            "reference": "446825d83fb4da7430c6a0462cb3c8f939317541",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "*"
+        },
+        "time": "2016-02-22 07:44:26",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "iisns\\markdown\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Shiyang",
+                "email": "dr@shiyang.me"
+            }
+        ],
+        "description": "yii2-simplemde-markdown",
+        "keywords": [
+            "SimpleMDE",
+            "editor",
+            "iisns",
+            "markdown",
+            "yii2"
+        ]
+    },
+    {
+        "name": "suver/yii2-editor",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/suver/yii2-editor.git",
+            "reference": "a367ecdcf0336dc2e64384cf8a505417559cec5b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/suver/yii2-editor/zipball/a367ecdcf0336dc2e64384cf8a505417559cec5b",
+            "reference": "a367ecdcf0336dc2e64384cf8a505417559cec5b",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "*"
+        },
+        "time": "2016-10-09 14:13:58",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "suver\\editor\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Suver",
+                "email": "suver@farpse.com"
+            }
+        ],
+        "description": "yii2-editor",
+        "keywords": [
+            "SimpleMDE",
+            "editor",
+            "farpse",
+            "markdown",
+            "yii2"
+        ]
+    },
+    {
+        "name": "rmrevin/yii2-fontawesome",
+        "version": "2.16.1",
+        "version_normalized": "2.16.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rmrevin/yii2-fontawesome.git",
+            "reference": "ab08282b8cd05c570634926f41c868cf902981e7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/ab08282b8cd05c570634926f41c868cf902981e7",
+            "reference": "ab08282b8cd05c570634926f41c868cf902981e7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "yiisoft/yii2": "2.0.*"
+        },
+        "time": "2016-08-31 12:41:25",
+        "type": "yii2-extension",
+        "extra": {
+            "asset-installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "rmrevin\\yii\\fontawesome\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Revin Roman",
+                "email": "roman@rmrevin.com",
+                "homepage": "https://rmrevin.com/"
+            }
+        ],
+        "description": "Asset Bundle for Yii2 with Font Awesome",
+        "keywords": [
+            "asset",
+            "awesome",
+            "bundle",
+            "font",
+            "yii"
+        ]
+    },
+    {
+        "name": "almasaeed2010/adminlte",
+        "version": "v2.3.6",
+        "version_normalized": "2.3.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/almasaeed2010/AdminLTE.git",
+            "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/be11566d9539370b196ac85f22a6baf9f42c87cb",
+            "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb",
+            "shasum": ""
+        },
+        "time": "2016-08-04 23:22:06",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Abdullah Almsaeed",
+                "email": "abdullah@almsaeedstudio.com"
+            }
+        ],
+        "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 3",
+        "homepage": "http://almsaeedstudio.com/",
+        "keywords": [
+            "JS",
+            "admin",
+            "back-end",
+            "css",
+            "less",
+            "responsive",
+            "template",
+            "theme",
+            "web"
+        ]
+    },
+    {
+        "name": "cebe/yii2-gravatar",
+        "version": "1.1",
+        "version_normalized": "1.1.0.0",
+        "target-dir": "cebe/gravatar",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cebe/yii2-gravatar.git",
+            "reference": "c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cebe/yii2-gravatar/zipball/c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057",
+            "reference": "c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057",
+            "shasum": ""
+        },
+        "require": {
+            "yiisoft/yii2": "*"
+        },
+        "time": "2013-12-10 17:49:58",
+        "type": "yii2-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "cebe\\gravatar\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Carsten Brandt",
+                "email": "mail@cebe.cc",
+                "homepage": "http://cebe.cc/",
+                "role": "Core framework development"
+            }
+        ],
+        "description": "Gravatar Widget for Yii 2",
+        "keywords": [
+            "gravatar",
+            "yii"
+        ]
+    },
+    {
+        "name": "dmstr/yii2-adminlte-asset",
+        "version": "2.3.3",
+        "version_normalized": "2.3.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dmstr/yii2-adminlte-asset.git",
+            "reference": "a1330f2f678d66d8ce2f8acb6fb9ce60a4614c60"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dmstr/yii2-adminlte-asset/zipball/a1330f2f678d66d8ce2f8acb6fb9ce60a4614c60",
+            "reference": "a1330f2f678d66d8ce2f8acb6fb9ce60a4614c60",
+            "shasum": ""
+        },
+        "require": {
+            "almasaeed2010/adminlte": "~2.0",
+            "cebe/yii2-gravatar": "1.*",
+            "rmrevin/yii2-fontawesome": "~2.9",
+            "yiisoft/yii2": "2.*",
+            "yiisoft/yii2-bootstrap": "2.*"
+        },
+        "time": "2016-07-28 03:57:05",
+        "type": "yii2-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "dmstr\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Tobias Munk",
+                "email": "tobias@diemeisterei.de"
+            },
+            {
+                "name": "Evgeniy Tkachenko",
+                "email": "et.coder@gmail.com"
+            }
+        ],
+        "description": "AdminLTE backend theme asset bundle for Yii 2.0 Framework",
+        "keywords": [
+            "AdminLTE",
+            "admin",
+            "asset",
+            "backend",
+            "css",
+            "extension",
+            "less",
+            "theme",
+            "yii2"
+        ]
     }
 ]

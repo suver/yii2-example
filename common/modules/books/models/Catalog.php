@@ -35,7 +35,7 @@ class Catalog extends \yii\db\ActiveRecord
                 'value' => new Expression('NOW()'),
             ],
             [
-                'class' => '\backend\modules\books\components\Subset',
+                'class' => \suver\behavior\Subset::className(),
                 'relation' => 'authors',
                 'attribute' => 'authors_ids',
             ]
@@ -50,7 +50,10 @@ class Catalog extends \yii\db\ActiveRecord
         return [
             [['title'], 'required'],
             [['date_publication', 'created_at', 'updated_at'], 'safe'],
-            [['title'], 'string', 'max' => 255],
+            [['title', 'isbn', 'format'], 'string', 'max' => 255],
+            [['description'], 'string'],
+            [['is_hit', 'number_of_pages', 'printing', 'binding', 'language_editions', 'age_restrictions', 'publication_type'], 'integer'],
+            [['weight'], 'number'],
             [['authors_ids'], 'each', 'rule' => ['integer']],
         ];
     }
@@ -63,6 +66,18 @@ class Catalog extends \yii\db\ActiveRecord
         return [
             'id' => Yii::t('common', 'ID'),
             'title' => Yii::t('common', 'Название'),
+            'description' => Yii::t('common', 'Описание'),
+            'authors_ids' => Yii::t('common', 'Авторы'),
+            'is_hit' => Yii::t('common', 'Бесцелер?'),
+            'format' => Yii::t('common', 'Формат'),
+            'number_of_pages' => Yii::t('common', 'Колличество страниц'),
+            'isbn' => Yii::t('common', 'ISBN'),
+            'printing' => Yii::t('common', 'Тираж'),
+            'binding' => Yii::t('common', 'Переплет'),
+            'language_editions' => Yii::t('common', 'Язык издания'),
+            'age_restrictions' => Yii::t('common', 'Возрастное ограничение (от)'),
+            'publication_type' => Yii::t('common', 'Тип издания'),
+            'weight' => Yii::t('common', 'Вес (г)'),
             'date_publication' => Yii::t('common', 'Дата издания'),
             'created_at' => Yii::t('common', 'Дата добавлени'),
             'updated_at' => Yii::t('common', 'Дата обновления'),

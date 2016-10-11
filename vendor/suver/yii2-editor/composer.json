@@ -1,0 +1,22 @@
+{
+    "name": "suver/yii2-editor",
+    "description": "yii2-editor",
+    "type": "yii2-extension",
+    "keywords": ["yii2","markdown","simplemde","editor","farpse"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Suver",
+            "email": "suver@farpse.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "cebe/markdown": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "suver\\editor\\": ""
+        }
+    }
+}

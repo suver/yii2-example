@@ -11,11 +11,4 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" />
-  <component name="ScalaProjectSettings">
-    <option name="intInjectionMapping">
-      <map>
-        <entry key="xml" value="XML" />
-      </map>
-    </option>
-  </component>
 </project>

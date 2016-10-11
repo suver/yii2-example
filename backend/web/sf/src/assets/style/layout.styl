@@ -1,0 +1,164 @@
+animations(timing)
+  -webkit-transition -webkit-transform timing ease-in-out, margin timing ease-in-out
+  -moz-transition -moz-transform timing ease-in-out, margin timing ease-in-out
+  -o-transition -o-transform timing ease-in-out, margin timing ease-in-out
+  transition transform timing ease-in-out, margin timing ease-in-out
+
+
+$layout_header-width = 50px
+$layout_sidebar-menu_main-width = 50px
+$layout_sidebar-menu_second-width = 250px
+$layout_sidebar-menu-width = $layout_sidebar-menu_main-width + $layout_sidebar-menu_second-width
+
+
+html
+body
+  min-height 100%
+
+.wrapper
+  min-height 100%
+  position relative
+  overflow hidden
+
+  &:before
+  &:after
+    content " "
+    display table
+
+  &:after
+    clear both
+
+  .main-header
+    position relative
+    max-height $layout_header-width
+    z-index 1030
+
+    .navbar
+      animations 0.3s
+      margin-bottom 0
+      margin-left $layout_sidebar-menu-width
+      border none
+      min-height $layout_header-width
+      border-radius 0
+
+    .logo
+      animations 0.3s
+      display block
+      float left
+      height $layout_header-width
+      font-size 20px
+      line-height $layout_header-width
+      text-align center
+      width $layout_sidebar-menu-width
+      font-family "Helvetica Neue", Helvetica, Arial, sans-serif
+      font-weight 300
+      overflow hidden
+
+      .logo-lg
+        display block
+
+      .logo-mini
+        display none
+
+
+  .content-wrapper
+  .right-side
+  .main-footer
+    animations 0.3s
+    margin-left $layout_sidebar-menu-width
+    z-index 820
+
+  .content-wrapper
+  .right-side
+    min-height 100%
+    background-color #ecf0f5
+    z-index 800
+
+
+  .main-sidebar
+    animations 0.3s
+    position absolute
+    top 0
+    left 0
+    padding-top $layout_header-width
+    min-height 100%
+    width $layout_sidebar-menu_main-width
+    z-index 810
+
+
+  .second-sidebar
+    animations 0.3s
+    position absolute
+    top 0
+    left 0
+    padding-top $layout_header-width
+    min-height 100%
+    width $layout_sidebar-menu_second-width
+    margin-left $layout_sidebar-menu_main-width
+    z-index 810
+
+  ul.sidebar-menu
+    white-space: nowrap;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li.header
+      white-space: nowrap;
+      overflow: hidden;
+
+    li
+      position: relative;
+      margin: 0;
+      padding: 0;
+
+.main-sidebar
+  ul.sidebar-menu
+    white-space: nowrap;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li.header
+      white-space: nowrap;
+      overflow: hidden;
+      font-size $layout_sidebar-menu_main-width
+
+    li
+      position: relative;
+      margin: 0;
+      padding: 0;
+
+    li a, li a i
+      width $layout_sidebar-menu_main-width
+      height $layout_sidebar-menu_main-width
+      color #000
+      display block
+      font-size $layout_sidebar-menu_main-width
+
+
+.second-sidebar
+  ul.sidebar-menu
+    white-space: nowrap;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li.header
+      white-space: nowrap;
+      overflow: hidden;
+
+    li
+      position: relative;
+      margin: 0;
+      padding: 0;
+
+    li a, li a i
+      width $layout_sidebar-menu_main-width
+      height $layout_sidebar-menu_main-width
+      color #000
+      display block
+      font-size 10px

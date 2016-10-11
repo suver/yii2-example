@@ -1,12 +1,19 @@
 <?php
 $config = [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
+    'bootstrap' => [
+
+    ],
     'modules' => [
         'user' => [
             'class' => 'common\modules\user\Module',
         ],
         'books' => [
             'class' => 'common\modules\books\Module',
+        ],
+        'uploads' => [
+            'class' => 'suver\behavior\upload\Module',
+            'storageDomain' => '//storage.drivelid_test2.dev'
         ],
     ],
     'components' => [
@@ -54,4 +61,14 @@ $config = [
     ],
 ];
 
+
+
+if (YII_ENV_DEV) {
+    $config['bootstrap'][] = 'gii';
+    $config['modules']['gii'] = [
+        'class' => 'yii\gii\Module',
+    ];
+}
+
 return $config;
+

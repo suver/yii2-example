@@ -10,13 +10,25 @@ $config = [
     'id' => 'app-backend',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
-    'bootstrap' => ['log'],
+    'defaultRoute' => 'books/catalog/index',
+    'bootstrap' => [
+        //'notifications',
+        'log',
+    ],
     'modules' => [
+        /*'notifications' => [
+            'class' => 'suver\notifications\Module',
+            'dataViewWidget' => '\backend\widgets\DataView',
+            'gridViewWidget' => '\backend\widgets\GridView',
+        ],*/
         'user' => [
             'class' => 'backend\modules\user\Module',
         ],
         'books' => [
-            'class' => 'backend\modules\books\Module',
+            'class' => 'common\modules\books\Module',
+        ],
+        'settings' => [
+            'class' => 'backend\modules\settings\Module',
         ],
     ],
     'components' => [
@@ -44,6 +56,12 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                /*'<controller:[\w\-]+>' => '<controller>/index',
+                '<controller:[\w\-]+>/<id:\d+>' => '<controller>/view',
+                '<controller:[\w\-]+>/<action:[\w\-]+>' => '<controller>/<action>',
+                '<module:[\w\-]+>' => '<module>/default/index',
+                '<module:[\w\-]+>/<controller:[\w\-]+>/<id:\d+>' => '<module>/<controller>/view',
+                '<module:[\w\-]+>/<controller:[\w\-]+>/<action:[\w\-]+>' => '<module>/<controller>/<action>',*/
             ],
         ],
 
@@ -51,13 +69,5 @@ $config = [
     'params' => $params,
 ];
 
-
-
-if (YII_ENV_DEV) {
-    $config['bootstrap'][] = 'gii';
-    $config['modules']['gii'] = [
-        'class' => 'yii\gii\Module',
-    ];
-}
 
 return $config;

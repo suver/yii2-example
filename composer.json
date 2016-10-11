@@ -20,7 +20,20 @@
         "yiisoft/yii2-swiftmailer": "*",
         "yii2mod/yii2-chosen-select": "*",
         "yiisoft/yii2-jui": "^2.0",
-        "voskobovich/yii2-many-many-behavior": "^3.0"
+        "voskobovich/yii2-many-many-behavior": "^3.0",
+        "cyneek/yii2-upload-behavior": "^0.0.8",
+        "yiisoft/yii2-imagine": "^2.0",
+        "suver/yii2-behavior-upload": "^1.0",
+        "suver/yii2-behavior-subset": "^1.0",
+        "suver/yii2-settings": "^1.0",
+        "suver/yii2-notifications": "^1.0",
+        "beowulfenator/yii2-json-editor": "^1.1",
+        "hasbridge/json-schema-validator": "^0.2.0",
+        "uran1980/yii2-bootstrap-markdown-editor": "^0.0.4",
+        "iisns/yii2-simplemde-markdown": "^1.0",
+        "suver/yii2-editor": "^1.0",
+        "cebe/markdown": "^1.1",
+        "dmstr/yii2-adminlte-asset": "2.*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

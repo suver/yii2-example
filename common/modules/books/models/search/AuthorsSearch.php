@@ -51,7 +51,7 @@ class AuthorsSearch extends Authors
                 'defaultOrder' => ['id'=>SORT_DESC]
             ],
             'pagination' => [
-                'pageSize' => \Yii::$app->getModule('books')->params['defaultAuthorPerPage'],
+                'pageSize' => \common\modules\books\Module::getInstance()->defaultAuthorPerPage,
             ],
         ]);
 

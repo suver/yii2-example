@@ -1,0 +1,166 @@
+@import '/assets/libs/font-awesome-4.6.3/css/font-awesome.min.css';
+html,
+body {
+  min-height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.wrapper:before,
+.wrapper:after {
+  content: " ";
+  display: table;
+}
+.wrapper:after {
+  clear: both;
+}
+.wrapper .main-header {
+  position: relative;
+  max-height: 50px;
+  z-index: 1030;
+}
+.wrapper .main-header .navbar {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  margin-bottom: 0;
+  margin-left: 300px;
+  border: none;
+  min-height: 50px;
+  border-radius: 0;
+}
+.wrapper .main-header .logo {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  display: block;
+  float: left;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  width: 300px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  overflow: hidden;
+}
+.wrapper .main-header .logo .logo-lg {
+  display: block;
+}
+.wrapper .main-header .logo .logo-mini {
+  display: none;
+}
+.wrapper .content-wrapper,
+.wrapper .right-side,
+.wrapper .main-footer {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  margin-left: 300px;
+  z-index: 820;
+}
+.wrapper .content-wrapper,
+.wrapper .right-side {
+  min-height: 100%;
+  background-color: #ecf0f5;
+  z-index: 800;
+}
+.wrapper .main-sidebar {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+  min-height: 100%;
+  width: 50px;
+  z-index: 810;
+}
+.wrapper .second-sidebar {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 50px;
+  min-height: 100%;
+  width: 250px;
+  margin-left: 50px;
+  z-index: 810;
+}
+.wrapper ul.sidebar-menu {
+  white-space: nowrap;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.wrapper ul.sidebar-menu li.header {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.wrapper ul.sidebar-menu li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.main-sidebar ul.sidebar-menu {
+  white-space: nowrap;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-sidebar ul.sidebar-menu li.header {
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 50px;
+}
+.main-sidebar ul.sidebar-menu li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.main-sidebar ul.sidebar-menu li a,
+.main-sidebar ul.sidebar-menu li a i {
+  width: 50px;
+  height: 50px;
+  color: #000;
+  display: block;
+  font-size: 50px;
+}
+.second-sidebar ul.sidebar-menu {
+  white-space: nowrap;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.second-sidebar ul.sidebar-menu li.header {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.second-sidebar ul.sidebar-menu li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.second-sidebar ul.sidebar-menu li a,
+.second-sidebar ul.sidebar-menu li a i {
+  width: 50px;
+  height: 50px;
+  color: #000;
+  display: block;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=app.css.map */

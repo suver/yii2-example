@@ -44,7 +44,7 @@ class CatalogSearch extends Catalog
      */
     public function search($params)
     {
-        $query = Catalog::find();
+        $query = Catalog::find()->distinct();
 
         $query->joinWith(['authors']);
         // add conditions that should always apply here
@@ -64,7 +64,7 @@ class CatalogSearch extends Catalog
                 ]
             ],
             'pagination' => [
-                'pageSize' => \Yii::$app->getModule('books')->params['defaultCatalogPerPage'],
+                'pageSize' => \common\modules\books\Module::getInstance()->defaultCatalogPerPage,
             ],
 
         ]);

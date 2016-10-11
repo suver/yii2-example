@@ -2,6 +2,7 @@
 
 namespace common\modules\books\models;
 
+use suver\behavior\upload\UploadBehavior;
 use Yii;
 use yii\behaviors\TimestampBehavior;
 use yii\db\Expression;
@@ -31,6 +32,16 @@ class Authors extends \yii\db\ActiveRecord
                 'class' => TimestampBehavior::className(),
                 'value' => new Expression('NOW()'),
             ],
+            [
+                'class' => UploadBehavior::className(),
+                'attribute' => 'photo',
+                'thumbnail' => [
+                    'admin_preview' => ['size' => '200x200', 'prefix' => 'v1'],
+                    'admin_preview_without_animate' => ['size' => '100x100', 'prefix' => 'v2', 'option' => ['jpeg_quality' => 10], 'animate' => false],
+                    'medium2' => ['size' => 'x100'],
+                    'medium3' => ['size' => '100'],
+                ],
+            ],
         ];
     }
 
@@ -43,6 +54,7 @@ class Authors extends \yii\db\ActiveRecord
             [['full_name'], 'required'],
             [['created_at', 'updated_at'], 'safe'],
             [['full_name'], 'string', 'max' => 255],
+            ['photo', 'file', 'extensions' => ['jpg','png','gif'], 'maxSize' => 100*1024*1024, 'maxFiles' => 1, /*'tooBig' => 'Лимит 10Мб', 'tooMany' => '', 'wrongExtension', 'wrongMimeType'*/]
         ];
     }
 
@@ -56,6 +68,7 @@ class Authors extends \yii\db\ActiveRecord
             'full_name' => Yii::t('common', 'ФИО'),
             'created_at' => Yii::t('common', 'Дата добавления'),
             'updated_at' => Yii::t('common', 'Дата обновления'),
+            'photo' => Yii::t('common', 'Фото'),
         ];
     }
 

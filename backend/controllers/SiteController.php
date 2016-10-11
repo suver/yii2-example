@@ -13,7 +13,6 @@ use common\models\LoginForm;
 class SiteController extends BackendController
 {
 
-
     /**
      * @inheritdoc
      */
