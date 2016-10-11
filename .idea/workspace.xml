@@ -6,6 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8227ebb-a2e9-4e5e-8df4-a7d90b81f1cc" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/7a/44/7a44b7b032b880071cb4317a9158d16c/7a44b7b032b880071cb4317a9158d16c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/7a/44/7a44b7b032b880071cb4317a9158d16c/_7a44b7b032b880071cb4317a9158d16c_200x200.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/modules/settings/controllers/DefaultController.php" afterPath="$PROJECT_DIR$/backend/modules/settings/controllers/DefaultController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/modules/user/controllers/ProfileController.php" afterPath="$PROJECT_DIR$/backend/modules/user/controllers/ProfileController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/modules/books/controllers/AuthorsController.php" afterPath="$PROJECT_DIR$/common/modules/books/controllers/AuthorsController.php" />
@@ -91,8 +93,8 @@
       <file leaf-file-name="AuthorsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/modules/books/controllers/AuthorsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="405">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding>
                 <element signature="e#52#60#0#PHP" expanded="true" />
               </folding>
@@ -103,8 +105,8 @@
       <file leaf-file-name="CatalogController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/modules/books/controllers/CatalogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="315">
+              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -113,8 +115,8 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/modules/books/controllers/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="330">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="23" selection-end-column="40" />
               <folding>
                 <element signature="e#52#82#0#PHP" expanded="true" />
               </folding>
@@ -125,8 +127,8 @@
       <file leaf-file-name="ProfileController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/modules/user/controllers/ProfileController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="300">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -135,8 +137,8 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/modules/settings/controllers/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="300">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -219,10 +221,10 @@
         <option value="$PROJECT_DIR$/backend/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/common/runtime/tmp-extensions/yii2-notifications/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/common/modules/books/controllers/DefaultController.php" />
         <option value="$PROJECT_DIR$/common/modules/books/controllers/AuthorsController.php" />
         <option value="$PROJECT_DIR$/common/modules/books/controllers/CatalogController.php" />
         <option value="$PROJECT_DIR$/backend/modules/settings/controllers/DefaultController.php" />
-        <option value="$PROJECT_DIR$/common/modules/books/controllers/DefaultController.php" />
         <option value="$PROJECT_DIR$/backend/modules/user/controllers/ProfileController.php" />
       </list>
     </option>
@@ -1029,12 +1031,12 @@
       <workItem from="1475828287287" duration="102000" />
       <workItem from="1475828445161" duration="611000" />
       <workItem from="1475853802882" duration="102421000" />
-      <workItem from="1476142542313" duration="12012000" />
+      <workItem from="1476142542313" duration="12432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218294000" />
+    <option name="totallyTimeSpent" value="218714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="24" width="1873" height="1056" extended-state="6" />
@@ -1539,46 +1541,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/modules/books/controllers/CatalogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/modules/books/controllers/AuthorsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="405">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <folding>
             <element signature="e#52#60#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/modules/settings/controllers/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/modules/books/controllers/CatalogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/modules/books/controllers/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="23" selection-end-column="40" />
           <folding>
             <element signature="e#52#82#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/modules/settings/controllers/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/modules/user/controllers/ProfileController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="300">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
         </state>
       </provider>
